@@ -17,7 +17,6 @@ do
                         then
                                 echo "Modifiche: $modifiche"
                                 perc1=$(printf %.2f%%  "$((10**3 * 100 * $modifiche/$righe1))e-3")
-                                perc2=$(printf %.2f%%  "$((10**3 * 100 * $modifiche/$righe2))e-3")
                                 echo "Probabilità che i file siano diversi: $perc1"
                         else
                                 echo -e "\e[31mI due file sono IDENTICI\e[0m"
